@@ -3,7 +3,6 @@
 
 # Make
 - 编译引擎  
-  git clone git@gitlab.rd.175game.com:ultranet/lpc-egg.git  
   cd lpc-egg  
   make all  
 
