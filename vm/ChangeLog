@@ -1,0 +1,25 @@
+The New LPC
+
+version 1.1
+	1. Support function as first class variable
+		See logic/test/test_function.c
+	2. Support upvalue
+		See logic/test/test_upvalue.c
+	3. Optional semicolon
+		See logic/test/test_function.c
+	4. Change new class's syntax from:
+		class TestClass t = new (class TestClass);
+		class TestClass t1 = new (class TestClass(key1:value1, key2:value2));
+	   to:
+		TestClass t = new TestClass;
+		TestClass t1 = new TestClass(key1:value1, key2:value2);
+	   Please see logic/test/test_new_class.c
+	5. Support class.member syntax
+	   ex:
+	   abc_t f = new abc_t(a:10, b:20, c:30);
+	   int a = 2 + abc_t.a + abc_t.b;
+	6. Support mapping index
+	   ex:
+	   abc_t f = new abc_t(a:10, b:20, c:30);
+	   int a = f[abc_t.a]
+	   int b = f[abc_t.b]

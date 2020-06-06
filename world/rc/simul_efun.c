@@ -1,0 +1,7 @@
+#include "/rc/simul_efuns/functional.c"
+#include "/rc/simul_efuns/math.c"
+#include "/rc/simul_efuns/time.c"
+#include "/rc/simul_efuns/array.c"
+#include "/rc/simul_efuns/string.c"
+#include "/rc/simul_efuns/file.c"
+#include "/rc/simul_efuns/file_reader.c"
